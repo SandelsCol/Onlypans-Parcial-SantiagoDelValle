@@ -9,6 +9,8 @@
       Title="Page2">
 
     <Grid Background="#FFFFD2D2">
-        <Label Content="Welcome: Admin" HorizontalAlignment="Left" Height="65" Margin="10,10,0,0" VerticalAlignment="Top" Width="445" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Label Content="Bienvenido: Administrad@r" HorizontalAlignment="Left" Height="65" Margin="10,10,0,0" VerticalAlignment="Top" Width="588" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Button Content="Log Out" HorizontalAlignment="Left" Height="33" Margin="10,281,0,0" VerticalAlignment="Top" Width="98" Background="White" Click="Button_Click"/>
+        <StackPanel HorizontalAlignment="Left" Height="203" Margin="400,111,0,0" VerticalAlignment="Top" Width="374" Background="White"/>
     </Grid>
 </Page>

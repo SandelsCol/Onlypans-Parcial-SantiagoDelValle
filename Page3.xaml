@@ -9,7 +9,19 @@
       Title="Page3">
 
     <Grid Background="#FFFFD2D2">
-        <Label Content="Welcome: Worker" HorizontalAlignment="Left" Height="65" Margin="10,10,0,0" VerticalAlignment="Top" Width="445" FontFamily="Bradley Hand ITC" FontSize="48"/>
-
+        <RadioButton Content="Aliñeado" HorizontalAlignment="Left" Margin="147,117,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton Content="No aliñeado" HorizontalAlignment="Left" Margin="313,117,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton Content="Especial" HorizontalAlignment="Left" Margin="233,117,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <StackPanel HorizontalAlignment="Left" Height="268" Margin="476,0,0,0" VerticalAlignment="Center" Width="281" Background="White"/>
+        <Label Content="Tipo de pan:" HorizontalAlignment="Left" Height="41" Margin="10,109,0,0" VerticalAlignment="Top" Width="159" FontSize="20" FontFamily="Arial Rounded MT Bold"/>
+        <Label Content="Nombre del cliente:" HorizontalAlignment="Left" Height="32" Margin="10,150,0,0" VerticalAlignment="Top" Width="238" FontSize="20" FontFamily="Arial Rounded MT Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="214,154,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <Label Content="Cédula:" HorizontalAlignment="Left" Height="42" Margin="10,192,0,0" VerticalAlignment="Top" Width="94" FontSize="20" FontFamily="Arial Rounded MT Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="104,194,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <Button Content="Log Out" HorizontalAlignment="Left" Height="33" Margin="10,276,0,0" VerticalAlignment="Top" Width="98" Background="White" Click="Button_Click"/>
+        <Label Content="Cantidad de panes:" HorizontalAlignment="Left" Height="32" Margin="10,229,0,0" VerticalAlignment="Top" Width="238" FontSize="20" FontFamily="Arial Rounded MT Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="214,231,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Orden de compra" HorizontalAlignment="Left" Height="57" Margin="81,20,0,0" VerticalAlignment="Top" Width="356" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Button Content="Compra" HorizontalAlignment="Left" Height="38" Margin="333,226,0,0" VerticalAlignment="Top" Width="104" Background="White"/>
     </Grid>
 </Page>

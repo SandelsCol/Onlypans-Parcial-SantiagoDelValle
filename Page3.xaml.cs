@@ -22,5 +22,11 @@ namespace Onlypans_Parcial
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow p = (MainWindow)Window.GetWindow(this);
+             p.MainFrame.NavigationService.Navigate(new Page1());
+        }
     }
 }

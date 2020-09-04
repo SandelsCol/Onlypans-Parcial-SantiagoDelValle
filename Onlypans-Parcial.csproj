@@ -12,6 +12,7 @@
     <None Remove="cuentas-suspendidas-instagram.png" />
     <None Remove="pagina-de-facebook-abogados.png" />
     <None Remove="Screenshot_1.png" />
+    <None Remove="Screenshot_2.png" />
     <None Remove="unnamed.png" />
   </ItemGroup>
 
@@ -20,6 +21,7 @@
     <Resource Include="cuentas-suspendidas-instagram.png" />
     <Resource Include="pagina-de-facebook-abogados.png" />
     <Resource Include="Screenshot_1.png" />
+    <Resource Include="Screenshot_2.png" />
     <Resource Include="unnamed.png" />
   </ItemGroup>
 
