@@ -7,4 +7,20 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="5ec787f2bfceab659b30cea66ecff88d-icono-de-dibujos-animados-de-pan-baguette-by-vexels.png" />
+    <None Remove="cuentas-suspendidas-instagram.png" />
+    <None Remove="pagina-de-facebook-abogados.png" />
+    <None Remove="Screenshot_1.png" />
+    <None Remove="unnamed.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="5ec787f2bfceab659b30cea66ecff88d-icono-de-dibujos-animados-de-pan-baguette-by-vexels.png" />
+    <Resource Include="cuentas-suspendidas-instagram.png" />
+    <Resource Include="pagina-de-facebook-abogados.png" />
+    <Resource Include="Screenshot_1.png" />
+    <Resource Include="unnamed.png" />
+  </ItemGroup>
+
 </Project>

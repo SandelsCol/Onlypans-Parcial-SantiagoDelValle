@@ -7,6 +7,33 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Frame Name="MainFrame" Content="" HorizontalAlignment="Center" Height="350" VerticalAlignment="Top" Width="800" Margin="0,84,0,0" Background="White" NavigationUIVisibility="Hidden" Source="/Page1.xaml"/>
+        <Label Content="" HorizontalAlignment="Left" Height="56" Margin="27,10,0,0" VerticalAlignment="Top" Width="228">
+            <Label.Background>
+                <ImageBrush ImageSource="/Screenshot_1.png"/>
+            </Label.Background>
+        </Label>
+        <Label Content="" HorizontalAlignment="Left" Height="108" Margin="260,-16,0,0" VerticalAlignment="Top" Width="147">
+            <Label.Background>
+                <ImageBrush ImageSource="/5ec787f2bfceab659b30cea66ecff88d-icono-de-dibujos-animados-de-pan-baguette-by-vexels.png"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Nuestras Redes sociales" HorizontalAlignment="Left" Height="24" Margin="620,9,0,0" VerticalAlignment="Top" Width="140"/>
+        <Label Content="" HorizontalAlignment="Left" Height="29" Margin="617,37,0,0" VerticalAlignment="Top" Width="54">
+            <Label.Background>
+                <ImageBrush ImageSource="/pagina-de-facebook-abogados.png"/>
+            </Label.Background>
+        </Label>
+        <Label Content="" HorizontalAlignment="Left" Height="28" Margin="676,38,0,0" VerticalAlignment="Top" Width="28">
+            <Label.Background>
+                <ImageBrush ImageSource="/cuentas-suspendidas-instagram.png"/>
+            </Label.Background>
+        </Label>
+        <Label Content="" HorizontalAlignment="Left" Height="34" Margin="720,35,0,0" VerticalAlignment="Top" Width="30">
+            <Label.Background>
+                <ImageBrush ImageSource="/unnamed.png"/>
+            </Label.Background>
+        </Label>
 
     </Grid>
 </Window>
