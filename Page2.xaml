@@ -11,6 +11,25 @@
     <Grid Background="#FFFFD2D2">
         <Label Content="Bienvenido: Administrad@r" HorizontalAlignment="Left" Height="65" Margin="10,10,0,0" VerticalAlignment="Top" Width="588" FontFamily="Bradley Hand ITC" FontSize="48"/>
         <Button Content="Log Out" HorizontalAlignment="Left" Height="33" Margin="10,281,0,0" VerticalAlignment="Top" Width="98" Background="White" Click="Button_Click"/>
-        <StackPanel HorizontalAlignment="Left" Height="203" Margin="400,111,0,0" VerticalAlignment="Top" Width="374" Background="White"/>
+        <Label Content="" HorizontalAlignment="Left" Height="50" Margin="68,125,0,0" VerticalAlignment="Top" Width="106">
+            <Label.Background>
+                <ImageBrush ImageSource="/1b3e2006c49d0a6847f81576d74f5088-icono-de-usuario-de-siluetas-planas-by-vexels.png"/>
+            </Label.Background>
+        </Label>
+        <Label Content="" HorizontalAlignment="Center" Height="50" Margin="0,125,0,0" VerticalAlignment="Top" Width="106">
+            <Label.Background>
+                <ImageBrush ImageSource="/image_processing20200511-27178-1gbykup.png"/>
+            </Label.Background>
+        </Label>
+        <Label Content="" HorizontalAlignment="Left" Height="50" Margin="616,132,0,0" VerticalAlignment="Top" Width="106" RenderTransformOrigin="0.533,0.461">
+            <Label.Background>
+                <ImageBrush ImageSource="/unnamed.png"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Empleados" HorizontalAlignment="Left" Height="28" Margin="74,191,0,0" VerticalAlignment="Top" Width="94" FontSize="16"/>
+        <Label Content="ultimas ventas" HorizontalAlignment="Center" Height="30" Margin="0,191,0,0" VerticalAlignment="Top" Width="116" FontSize="16"/>
+        <Label Content="chat" HorizontalAlignment="Left" Height="28" Margin="646,191,0,0" VerticalAlignment="Top" Width="46" FontSize="16"/>
+        <Button Content="Ver avances
+" HorizontalAlignment="Center" Height="23" Margin="0,281,0,0" VerticalAlignment="Top" Width="156" Background="White" Click="Button_Click_1"/>
     </Grid>
 </Page>

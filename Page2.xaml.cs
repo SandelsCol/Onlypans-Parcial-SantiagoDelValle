@@ -28,5 +28,11 @@ namespace Onlypans_Parcial
             MainWindow p = (MainWindow)Window.GetWindow(this);
              p.MainFrame.NavigationService.Navigate(new Page1());
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainWindow w = (MainWindow)Window.GetWindow(this);
+            w.MainFrame.NavigationService.Navigate(new Page3());
+        }
     }
 }
